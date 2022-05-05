@@ -29,3 +29,7 @@ gem "bridgetown", "~> 1.0.0"
 gem "puma", "~> 5.6"
 
 gem "bridgetown-view-component", "~> 1.0", :group => :bridgetown_plugins
+
+gem "bulmatown", "~> 1.2", :group => :bridgetown_plugins
+
+gem "bridgetown-quick-search", "~> 1.1", :group => :bridgetown_plugins

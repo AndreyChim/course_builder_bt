@@ -82,3 +82,8 @@ hr {
   border-top: 2px dotted #bbb;
   margin: 3rem 0;
 }
+// frontend/styles/index.scss
+
+$theme_variation: fuchsia;
+
+@import "~bulmatown/frontend/styles"

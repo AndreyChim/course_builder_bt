@@ -1,4 +1,5 @@
 import "index.scss"
+import Bulmatown from "bulmatown"
 
 // Import all JavaScript & CSS files from src/_components
 const componentsContext = require.context("bridgetownComponents", true, /\.(js|css)$/)
