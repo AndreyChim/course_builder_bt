@@ -14,10 +14,27 @@
 # https://learnxinyminutes.com/docs/yaml/
 #
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.com
+# the base hostname & protocol for your site, e.g. https://example.com
 
-permalink: pretty
+url: "https://andreychim.github.io/"
+
+base_path: "/course_builder_bt"
+
 template_engine: erb
+
+collections:
+  courses:
+    output: true
+    relations:
+      has_many: units
+  units:
+    output: true
+    relations:
+      has_many: courses
+        
+
+#pagination:
+ # enabled: true 
 
 # Other options you might want to investigate:
 #
@@ -27,5 +44,5 @@ template_engine: erb
 # update `publicPath`.
 
 # timezone: America/Los_Angeles
- pagination:
-   enabled: true
+# pagination:
+#   enabled: true
