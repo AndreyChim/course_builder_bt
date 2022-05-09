@@ -33,3 +33,5 @@ gem "bridgetown-view-component", "~> 1.0", :group => :bridgetown_plugins
 gem "bulmatown", "~> 1.2", :group => :bridgetown_plugins
 
 gem "bridgetown-quick-search", "~> 1.1", :group => :bridgetown_plugins
+
+
