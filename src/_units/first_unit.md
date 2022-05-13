@@ -1,5 +1,5 @@
 ---
-layout: unit
+layouts: unit
 name:  "unit 1"
 position: 1
 --- 

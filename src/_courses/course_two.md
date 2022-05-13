@@ -1,5 +1,5 @@
 ---
-layout: course
+layouts: course
 name:  "Course number two"
 volume:   volume
 annotation: annotation
